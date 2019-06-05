@@ -1,7 +1,7 @@
 ---
 layout: page
 title: about
-permalink: /about/
+permalink: /
 ---
 
 The goal of this website is to put together, in a comprehensible fashion, contents related to the theory of information dynamics and complex systems. In a nutshell, complex systems are systems composed by a number of interdependent parts in way such that "the whole is more than the sum of the parts"; and information dynamics refers to the idea of studying these systems using principles of information theory -- broadly understood, including the foundational work of Claude Shannon, Ronald Fisher, Norbert Wiener, and their followers and minions.
