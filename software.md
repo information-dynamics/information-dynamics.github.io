@@ -4,31 +4,31 @@ title: software
 permalink: /software/
 ---
 
-## JIDT
+### JIDT
 
 Lorem ipsum dolor sit amet, conspictetur elit so delir. Lorem ipsum dolor sit amet, conspictetur elit so delir. Lorem ipsum dolor sit amet, conspictetur elit so delir. Lorem ipsum dolor sit amet, conspictetur elit so delir. Lorem ipsum dolor sit amet, conspictetur elit so delir.
 
 [Download](link)
 
-## dit
+### dit
 
 delir. Lorem ipsum dolor sit amet, conspictetur elit so delir. Lorem ipsum dolor sit amet, conspictetur elit so delir. Lorem ipsum dolor sit amet, conspictetur elit so delir.
 
 [Download](link)
 
-## IDTxl
+### IDTxl
 
 delir. Lorem ipsum dolor sit amet, conspictetur elit so delir. Lorem ipsum dolor sit amet, conspictetur elit so delir. Lorem ipsum dolor sit amet, conspictetur elit so delir.
 
 [Download](link)
 
-## tigramite
+### tigramite
 
 delir. Lorem ipsum dolor sit amet, conspictetur elit so delir. Lorem ipsum dolor sit amet, conspictetur elit so delir. Lorem ipsum dolor sit amet, conspictetur elit so delir.
 
 [Download](link)
 
-## TRENTOOL
+### TRENTOOL
 
 delir. Lorem ipsum dolor sit amet, conspictetur elit so delir. Lorem ipsum dolor sit amet, conspictetur elit so delir. Lorem ipsum dolor sit amet, conspictetur elit so delir.
 

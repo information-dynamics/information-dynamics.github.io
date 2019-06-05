@@ -16,7 +16,7 @@ are the patterns that are present in a particular signal.
 
 The LZ method was introduced back in 1976 by the electrical engineers Abraham Lempel and 
 Jacob Ziv to study binary sequences [[Lempel1976](#Lempel1976)]. These core ideas were
-later extended [[Ziv1977](#Ziv1977),[Ziv1978a](Ziv1978a)} to become the basis of the well-known `zip`
+later extended [[Ziv1977](#Ziv1977),[Ziv1978a](#Ziv1978a)] to become the basis of the well-known `zip`
 compression algorithm, which is used every day by millions of people to compress files. 
 In parallel, this algorithm has been used by scientists to study the diversity of
 patterns in signals of diverse nature. In particular, studies on EEG brain activity 

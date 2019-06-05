@@ -165,3 +165,22 @@ main .wrapper {
   }
 }
 
+
+
+
+/* Colours
+ * ----------------------------------------------
+ */
+
+h1, h1 a, h2, h2 a, h3, h3 a, .page-title, .post-title {
+  color: #2b2e2f;
+}
+
+.grey, h4 {
+  color: #888;
+}
+
+body, .site-header, .site-footer {
+  border: 0;
+}
+
