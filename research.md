@@ -9,8 +9,11 @@ These fascinating topics find application in a wide range of scientific discipli
 
 The interdisciplinary and highly dynamic nature of these topics make them difficult to grasp. In effect, relevant contributions appear every year, and are scattered under disimilar labels. It is our hope that this webpage may help by puting a (at least partially) consistent view on these topics.
 
-## Topics
+## Topics of Research
 
-## of
+{% for p in site.posts %}
+<h2><a href="{{ p.url }}" target="_blank" style="{{ p.hidetitle }}">{{ p.title }}</a></h2>
+<p>
+{{ p.description }}</p>
+{% endfor %}
 
-## Research
