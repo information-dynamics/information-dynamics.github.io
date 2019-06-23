@@ -4,13 +4,27 @@ title: literature
 permalink: /literature/
 ---
 
-## Computational mechanics
+## Foundations on Complexity Science
 
-- Shalizi, C. R., & Crutchfield, J. P. (2001). Computational mechanics: Pattern and prediction, structure and simplicity. Journal of statistical physics, 104(3-4), 817-879.
+- Waldrop, M. M. (1993). Complexity: The emerging science at the edge of order and chaos. Simon and Schuster.
+
+- Feldman, D. P., & Crutchfield, J. P. (1998). Measures of statistical complexity: Why?. Physics Letters A, 238(4-5), 244-252.
+
+- Thurner, S., Hanel, R., & Klimek, P. (2018). Introduction to the theory of complex systems. Oxford University Press.
+
+## Information Theory on Time Series
 
 - Crutchfield, J. P., & Feldman, D. P. (2003). Regularities unseen, randomness observed: Levels of entropy convergence. Chaos: An Interdisciplinary Journal of Nonlinear Science, 13(1), 25-54.
 
-- Crutchfield, J. P. (1994). The calculi of emergence: computation, dynamics and induction. Physica D: Nonlinear Phenomena, 75(1-3), 11-54.
+- Crutchfield, J. P., Ellison, C. J., & Mahoney, J. R. (2009). Time’s barbed arrow: Irreversibility, crypticity, and stored information. Physical review letters, 103(9), 094101.
+
+- James, R. G., Ellison, C. J., & Crutchfield, J. P. (2011). Anatomy of a bit: Information in a time series observation. Chaos: An Interdisciplinary Journal of Nonlinear Science, 21(3), 037109.
+
+## Transfer Entropy
+
+- James, R. G., Barnett, N., & Crutchfield, J. P. (2016). Information flows? A critique of transfer entropies. Physical review letters, 116(23), 238701.
+
+- Barnett, L., & Bossomaier, T. (2012). Transfer entropy as a log-likelihood ratio. Physical review letters, 109(13), 138105.
 
 ## Partial information decomposition
 
@@ -32,3 +46,8 @@ permalink: /literature/
 
 - Mediano, P., Seth, A., & Barrett, A. (2019). Measuring integrated information: Comparison of candidate measures in theory and simulation. Entropy, 21(1), 17.
 
+## Computational mechanics
+
+- Shalizi, C. R., & Crutchfield, J. P. (2001). Computational mechanics: Pattern and prediction, structure and simplicity. Journal of statistical physics, 104(3-4), 817-879.
+
+- Crutchfield, J. P. (1994). The calculi of emergence: computation, dynamics and induction. Physica D: Nonlinear Phenomena, 75(1-3), 11-54.
