@@ -26,7 +26,7 @@ particular, studies on EEG brain activity have been carried out using LZ for
 more than 20 years, with some early studies focusing on epilepsy
 [[Radhakrishnan1998](#Radhakrishnan1998)] and depth of anaesthesia
 [[Zhang2001](#Zhang2001)], and more modern ones on other altered states of
-consciousness [[Schartner2017](Schartner2017)]. Outside neuroscience, LZ has
+consciousness [[Schartner2017](#Schartner2017)]. Outside neuroscience, LZ has
 also been used to study the complexity of DNA sequences
 [[Gusev1999](#Gusev1999)] and ventricular fibrillation
 [[Zhang1999](#Zhang1999)], and has become a well-established tool for
@@ -93,4 +93,11 @@ year in which they were published. The numerical value of LZ differs when comput
 by the different versions; however, by using appropriate scaling any of these can be
 made to converge to the entropy rate of the process. However, in our experience LZ76 converge
 faster than LZ77 and LZ78, and also it computational time is much faster.
+
+### References
+
+<a name="Schartner2017"></a>Schartner, M. M., Carhart-Harris, R. L., Barrett, A. B., Seth,
+A. K., & Muthukumaraswamy, S. D. (2017). Increased spontaneous MEG signal
+diversity for psychoactive doses of ketamine, LSD and psilocybin. Scientific
+Reports, 7, 46421.
 
