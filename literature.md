@@ -1,6 +1,6 @@
 ---
 layout: page
-title: literature
+title: Literature
 permalink: /literature/
 ---
 
