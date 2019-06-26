@@ -4,17 +4,9 @@ title: Events
 permalink: /events/
 ---
 
+These are past and future events of the information dynamics community. If you are organising an event, or you know of an event that should be listed, please get in touch.
 
-## Complexity meetup
-#### 01 July 2019
-The description of this event that happened in the past is so elaborate it's going to make you want to be there next time.  
+## [Methods of Information Theory in Computational Neuroscience](http://www.biomed.cas.cz/~kostal/CNS2019-ITW/)
+#### 16-17 July 2019
+Annual gathering of researchers interested in information theory, information decomposition, and computational neuroscience.
 
-
-## Complexity meetup
-#### 01 February 2019
-The description of this event that happened in the past is so elaborate it's going to make you want to be there next time.  
-
-
-## Complexity meetup
-#### 01 January 2019
-The description of this event that happened in the past is so elaborate it's going to make you want to be there next time.  
