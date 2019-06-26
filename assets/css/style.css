@@ -80,6 +80,14 @@ body, p, li, span, ol, ul, table, a {
   text-align: justify;
 }
 
+@media sceen only and (max-width: 770px) {
+  body, p, li, span, ol, ul, table, a {
+    font-family: CM-sans;
+    word-spacing: 3px;
+    text-align: left;
+  }
+}
+
 strong {
   font-weight: 900;
 }
