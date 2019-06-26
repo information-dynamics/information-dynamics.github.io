@@ -1,0 +1,242 @@
+
+/* Typography
+ * ----------------------------------------------
+ */
+@font-face {
+  font-family: 'CM-serif-it';
+  src: url('/assets/fonts/cmunci.eot');
+  src: url('/assets/fonts/cmunci.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/cmunci.woff') format('woff'),
+       url('/assets/fonts/cmunci.ttf') format('truetype'),
+       url('/assets/fonts/cmunci.svg#cmunci') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'CM-serif';
+  src: url('/assets/fonts/cmunrm.eot');
+  src: url('/assets/fonts/cmunrm.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/cmunrm.woff') format('woff'),
+       url('/assets/fonts/cmunrm.ttf') format('truetype'),
+       url('/assets/fonts/cmunrm.svg#cmunrm') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'CM-sans';
+  src: url('/assets/fonts/cmunss.eot');
+  src: url('/assets/fonts/cmunss.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/cmunss.woff') format('woff'),
+       url('/assets/fonts/cmunss.ttf') format('truetype'),
+       url('/assets/fonts/cmunss.svg#cmunss') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'CM-type';
+  src: url('/assets/fonts/cmuntt.eot');
+  src: url('/assets/fonts/cmuntt.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/cmuntt.woff') format('woff'),
+       url('/assets/fonts/cmuntt.ttf') format('truetype'),
+       url('/assets/fonts/cmuntt.svg#cmuntt') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+
+/* General typography 
+ * ----------------------------------------------
+ */
+
+h1, h1 a {
+  margin-bottom: 0;
+}
+
+h2, h2 a {
+  font-family: CM-serif, serif;
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 0;
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+h3, h3 a {
+  font-family: CM-type, monospace;
+  margin-top: 30px;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+h4, h4 a {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body, p, li, span, ol, ul, table, a {
+  font-family: CM-sans;
+  word-spacing: 3px;
+  text-align: justify;
+}
+
+strong {
+  font-weight: 900;
+}
+
+i {
+  font-family: CM-serif-it, serif;
+}
+
+main p a, main li a {
+  text-decoration: underline;
+}
+
+ul {
+  padding-top: 10px;
+}
+
+nav .page-link {
+  font-family: CM-sans, sans-serif;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+/* Page styles 
+ * ----------------------------------------------
+ */
+
+.page-title {
+  font-family: CM-serif, serif;
+  letter-spacing: 2px;
+  font-size: 36px;
+  text-transform: none;
+  text-align: left;
+  font-variant: small-caps;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-content article {
+  padding-bottom: 100px;
+}
+
+
+
+/* Post styles
+ * ----------------------------------------------
+ */
+
+.post-title {
+  font-family: CM-sans, sans-serif;
+  font-size: 36px;
+  text-transform: none;
+  display: table;
+  text-align: left;
+  padding: 10px 0; 
+}
+
+.post-content p, .post-content li, .post-content span, .post-content ol, .post-content ul, .post-content a {
+  font-family: CM-serif, serif;
+  font-size: 17px;
+}
+
+
+
+/* Layout
+ * ----------------------------------------------
+ */
+
+/* reset body */
+body {
+  margin: 0;
+}
+
+main .wrapper {
+  padding-top: 30px;
+}
+
+@media (max-width: 769px) {
+  .wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.page-content, .post-content {
+  padding: 0;
+  flex: none;
+}
+
+.site-header {
+  padding-top: 30px;
+}
+
+.site-footer {
+  padding-top: 0;
+}
+
+footer .wrapper {
+  padding: 10px 30px;
+}
+
+
+/* Colours and styles
+ * ----------------------------------------------
+ */
+
+body {
+  background: #002345;
+}
+
+h1, h1 a, h2, h2 a, h3, h3 a, .page-title, .post-title {
+  color: #2b2e2f;
+}
+
+.grey, h4, .post-meta time {
+  font-size: 16px;
+  color: #888 !important;
+}
+
+body, .site-header, .site-footer {
+  border: 0;
+}
+
+main .wrapper {
+  background-color: #fdfbfc;
+  padding-top: 30px;
+}
+
+.site-header .wrapper, .site-footer .wrapper {
+  background-color: #dbdcde;
+}
+
+.wrapper p, .wrapper a, .wrapper li, .wrapper span, .wrapper ol, .wrapper ul, .wrapper table {
+  color: #161415;
+}
+
+
+/* Header & nav
+ * ----------------------------------------------
+ */
+#logo {
+  float: left;
+  line-height: 56px;
+}
+.main-menu {
+  line-height: 60px;
+}
+
+nav a, .site-nav .page-link {
+  font-weight: bold;
+  font-size: 15px;
+ }
+
+@media screen and (max-width: 600px) {
+  nav a, .site-nav .page-link {
+    margin-left: 20px;
+    margin-right: 30px;
+  }
+}
