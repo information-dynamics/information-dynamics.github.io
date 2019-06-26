@@ -1,20 +1,16 @@
 ---
 layout: post
 title:  "When and how to use Lempel-Ziv complexity"
-date:   2019-06-05 19:54:09 +0100
+date:   2019-06-26
 author: Fernando Rosas and Pedro Mediano
 categories: complexity information
-description: 'The Lempel-Ziv complexity (LZ) is a popular tool to quantify the uncertainty
-contained in time series data. In particular, LZ measures how "diverse"
-are the patterns that are present in a particular signal.'
+description: 'Lempel-Ziv complexity (LZ) is a popular tool to quantify the uncertainty
+contained in time series data. LZ measures the "diversity"
+of patterns in a particular signal, and is commonly used in neuroscience.'
 ---
-
-
-
 The Lempel-Ziv complexity (LZ) is a popular tool to quantify the uncertainty
 contained in time series data. In particular, LZ measures how "diverse"
 are the patterns that are present in a particular signal. 
-
 The LZ method was introduced back in 1976 by the electrical engineers Abraham
 Lempel and Jacob Ziv to study binary sequences [[Lempel1976](#Lempel1976)].
 These core ideas were later extended
@@ -86,18 +82,43 @@ In effect, one half of the entropy rate approximates the probability of making a
 informed guess about the next sample [[Feder1994](#Feder1994)]. Note that while LZ can 
 -- strictly speaking -- be applied to non-stationary data, 
 the interpretation as entropy rate assumes that the data is stationary.
-
-The previous interpretation is valid to the so called LZ76, which was defined in Ref.[REF].
+The previous interpretation is valid to the so called LZ76, which was defined by [[Lempel1976](#Lempel1976)].
 There are two other versions of the LZ algorithm, known as LZ77 and LZ78 according to the
 year in which they were published. The numerical value of LZ differs when computed
 by the different versions; however, by using appropriate scaling any of these can be
 made to converge to the entropy rate of the process. However, in our experience LZ76 converge
 faster than LZ77 and LZ78, and also it computational time is much faster.
 
+Sample Python code to calculate LZ76 complexity can be found [in this website](/assets/code/lz76.py).
+
 ### References
 
-<a name="Schartner2017"></a>Schartner, M. M., Carhart-Harris, R. L., Barrett, A. B., Seth,
-A. K., & Muthukumaraswamy, S. D. (2017). Increased spontaneous MEG signal
-diversity for psychoactive doses of ketamine, LSD and psilocybin. Scientific
-Reports, 7, 46421.
+<a name="Schartner2017"></a>Schartner, M. M., Carhart-Harris, R. L., Barrett, A. B., Seth, A. K., & Muthukumaraswamy, S. D. (2017). Increased spontaneous MEG signal diversity for psychoactive doses of ketamine, LSD and psilocybin. Scientific Reports, 7, 46421.
 
+<a name="Lempel1976"></a>Lempel A, Ziv J (1976) On the complexity of finite sequences. IEEE Transactions on Information Theory 22(1):75–81.
+
+<a name="Ziv1977"></a>Ziv J, Lempel A (1977) A universal algorithm for sequential data compression. IEEE Transactions on Information Theory 23(3):337–343.
+
+<a name="Ziv1978a"></a>Ziv J, Lempel A (1978) Compression of individual sequences via variable-rate coding. IEEE Transactions on Information Theory 24(5):530–536.
+
+<a name="Radhakrishnan1998"></a>Radhakrishnan N, Gangadhar B (1998) Estimating regularity in epileptic seizure time-series data. IEEE Engineering in Medicine and Biology 17(3):89–94.
+
+<a name="Zhang1999"></a>Zhang XS, Roy RJ, Jensen EW (2001) EEG complexity as a measure of depth of anesthesia for patients. IEEE Transactions on Biomedical Engineering 48(12):1424–1433.
+
+<a name="Gusev1999"></a>Gusev VD, Nemytikova LA, Chuzhanova NA (1999) On the complexity measures of genetic sequences. Bioinformatics 15(12):994–999.
+
+<a name="Zhang1999"></a>Zhang XS, Zhu YS, Thakor NV, Wang ZZ (1999) Detecting ventricular tachycardia and fibril- lation by complexity measure. IEEE Transactions on Biomedical Engineering 46(5):548–555. 
+
+<a name="Aboy2006"></a>Aboy M, Hornero R, Abásolo D, Álvarez D (2006) Interpretation of the Lempel-Ziv complex- ity measure in the context of biomedical signal analysis. IEEE Transactions on Biomedical Engineering 53(11):2282–2288.
+
+<a name="Mitchell2009"></a>Mitchell M (2009) Complexity: A guided tour. (Oxford University Press).
+
+<a name="Vitanyi1997"></a>Vitanyi PM, Li M (1997) An introduction to Kolmogorov complexity and its applications. (Springer Heidelberg) Vol. 34.
+
+<a name="Cover2006"></a>Cover TM, Thomas JA (2006) Elements of Information Theory. (Wiley, Hoboken).
+
+<a name="Ziv1978b"></a>Ziv J (1978) Coding theorems for individual sequences. IEEE Transactions on Information Theory.
+
+<a name="Feder1994"></a>Feder M, Merhav N (1994) Relations between entropy and error probability. IEEE Transactions on Information Theory 40(1):259–266.
+
+<a name="Kaspar1987"></a>Kaspar F, Schuster H (1987) Easily calculable measure for the complexity of spatiotemporal patterns. Physical Review A 36(2):842.
